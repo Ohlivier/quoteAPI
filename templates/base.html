@@ -22,10 +22,12 @@ z-index: -1;
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-4">{{ Quote }}</h1>
-    <p class="lead">{{ Author }}</p>
+    <p class="lead">{{ Author }}</p><small>ID : {{ ID }}</small>
+    <br>
     <br>
     <p>API</p>
     <code>http://127.0.0.1:8000/quote</code>
+    <code>http://127.0.0.1:8000/quote?id=1</code>
   </div>
 </div>
 </body>
