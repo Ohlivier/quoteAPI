@@ -12,3 +12,11 @@ To run the app use the command
 while in the directory of the project
 
 ![afbeelding](example.png)
+
+# Requirements
+
+```
+fastapi
+sqlalchemy
+pydantic
+```
